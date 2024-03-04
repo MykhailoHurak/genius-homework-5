@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bluu Next', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-primary-darkblue);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
